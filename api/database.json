@@ -1,0 +1,94 @@
+{
+  "clowns": [
+    {
+      "id": 1,
+      "name": "Mike"
+    },
+    {
+      "id": 2,
+      "name": "Leslie"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "parentName": "Sandy",
+      "childName": "Max",
+      "partySize": 10,
+      "address": "390 Oak St",
+      "date": "2022-08-15",
+      "length": 2
+    },
+    {
+      "id": 2,
+      "parentName": "Laura",
+      "childName": "Cindy",
+      "partySize": 12,
+      "address": "314 River St",
+      "date": "2022-08-22",
+      "length": 1
+    },
+    {
+      "parentName": "Monica",
+      "childName": "Zack",
+      "partySize": "5",
+      "address": "304 Colbert Way",
+      "date": "2022-08-28",
+      "length": "1",
+      "id": 3
+    },
+    {
+      "parentName": "Larry",
+      "childName": "Dan",
+      "partySize": "16",
+      "address": "5150 Town Center Cir",
+      "date": "2022-08-27",
+      "length": "3",
+      "id": 4
+    },
+    {
+      "parentName": "Dan",
+      "childName": "Billy",
+      "partySize": "11",
+      "address": "382 Glades Rd",
+      "date": "2022-09-10",
+      "length": "3",
+      "id": 5
+    },
+    {
+      "parentName": "Lilly",
+      "childName": "Sara",
+      "partySize": "3",
+      "address": "4 River Way",
+      "date": "2022-09-10",
+      "length": "1",
+      "id": 6
+    },
+    {
+      "parentName": "Dom",
+      "childName": "Rita",
+      "partySize": "7",
+      "address": "304 Colbert Way",
+      "date": "2022-08-31",
+      "length": "1",
+      "id": 8
+    }
+  ],
+  "completions": [
+    {
+      "jobId": 4,
+      "clownId": 1,
+      "id": 1
+    },
+    {
+      "jobId": 3,
+      "clownId": 1,
+      "id": 2
+    },
+    {
+      "jobId": 5,
+      "clownId": 2,
+      "id": 3
+    }
+  ]
+}
